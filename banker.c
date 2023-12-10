@@ -11,7 +11,8 @@ struct process
 int main()
 {
     int n;
-    printf("Enter the number of resource :");
+    printf("\n Its is vaid for 3 resource in a process \n");
+    printf("Enter the number of processes :");
     scanf("%d", &n);
     int a= n+1;
     struct process arr[a];
